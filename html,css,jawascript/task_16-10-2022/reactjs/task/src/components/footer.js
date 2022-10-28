@@ -17,13 +17,13 @@ function Footer(){
 
             <table border="0px">
                 <tr>
-                    <th>FOLLOW US</th>
+                    <th className="c1">FOLLOW US</th>
                     <th>CONTACT</th>
                 </tr>
                 <tr>
-                    <td>
+                    <td className="c1">
                         <a href="https://www.youtube.com/channel/UC_QFpdLwFsUqPY5a1BidXzg" title="Visit our Youtube channel">
-                            <img src={youtubelogo} alt="Youtube logo" width="7%" height="7%" />
+                            <img src={youtubelogo} alt="Youtube logo" width="15%" height="15%" />
                             Youtube
                         </a>
                     </td>
@@ -36,16 +36,17 @@ function Footer(){
                     </td>
                 </tr>
                 <tr>
-                    <td>
-                        
+                    <td className="c1">
                         <a href="https://www.instagram.com/accounts/login/" title="Click to Visit our Instagram page">
-                            <img src={instagramlogo} alt="instagram logo" width="7%" height="7%" />
+                            <img src={instagramlogo} alt="instagram logo" width="15%" height="15%" />
                             Instagram
                         </a>
                     </td>
                     <td>
-                        <img src={phonelogo} alt="phone logo" width="15%" height="15%" />
-                        +91 9003700826
+                        <a href="tel:+919003700826" title="Click to call us">
+                            <img src={phonelogo} alt="phone logo" width="15%" height="15%" />
+                            +91 9003700826
+                        </a>
                     </td>
                 </tr>
             </table>

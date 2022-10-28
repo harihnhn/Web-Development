@@ -2,26 +2,28 @@ table{
     width: 50%;
     float: right;
     font-size: 20px;
-    margin-right: 10%;
+    margin-right: 15%;
     margin-top: 0.9%;
+    vertical-align: middle;
 }
 
-table img{
-    margin-left: 0px;
-    margin-right: 0px;
+table a{
+    margin: 0%;
 }
 
 table th{
     text-align: left;
 }
 
-/*this property change whole */
+/*this property change whole page */
 div{
-    background-color: rgb(187, 184, 238);
+    background-color: rgb(236, 236, 218);
 }
 
 .footerimage{
+    margin-top: 0.9%;
     margin-bottom: 1.5%;
+    margin-left: 2%;
 }
 
 
@@ -33,4 +35,8 @@ div{
 a{
     color: white;
     text-decoration: none;
+}
+
+.c1{
+    width: 50%;
 }

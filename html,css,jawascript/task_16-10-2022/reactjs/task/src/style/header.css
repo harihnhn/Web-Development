@@ -1,24 +1,26 @@
-img{
+.headerlogo{
     /* 
     width: 300;
     height: 200;
     */
-    margin-top: 20px;
-    margin-left: 80px;
+    margin-top: 2%;
+    margin-left: 2%;
 }
 
 .navlink{
     float: right;
-    width: 200px;
+    width: 12%;
     font-size: 40px;
-    margin-right: 40px;
-    margin-top: 200px;
+    text-align: center;
+    margin-right: 3%;
+    margin-top: 8%;
     text-decoration: none;
     color: black;
-    /*background-color: aqua;*/
     border-radius: 30px;
-    padding-left: 80px;
-    /*border: red 2px solid;*/
+    /*
+    background-color: aqua;
+    border: red 2px solid;
+    */
 }
 
 .navlink:hover{

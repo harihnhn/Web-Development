@@ -15,7 +15,7 @@ function Header() {
     */
     return(
         <div>
-            <img src={logo} alt="Seventeen(*logo)" width="40%" height="25%" /*className="logo"*/ />
+            <img src={logo} alt="Seventeen(*logo)" width="30%" height="20%" className="headerlogo" />
             {/* <img src={logo} alt="Seventeen(*logo)"  style={mystyle} /> */}
             {/* <img src={logo} alt="Seventeen(*logo)" style={{width:"600"} {height: "300"}} /> */}
             {/*

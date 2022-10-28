@@ -1,10 +1,11 @@
 import React from "react";
+import homeimg from "./../images/home.webp";
 
 class Home extends React.Component{
     render(){
         return(
             <div>
-                <h1>welcome to home page</h1>
+                <img src={homeimg} alt="Welcome to home page" width="100%" height="" />
             </div>
         );
     }

@@ -1,11 +1,11 @@
 import React from "react";
-//import about from "./../images/" 
+import aboutimg from "./../images/about.jpg";
 
 class About extends React.Component{
     render(){
         return(
             <div>
-                <h1>welcome to about page</h1>
+                <img src={aboutimg} alt="Welcome to about page" width="100%" />
             </div>
         );
     }

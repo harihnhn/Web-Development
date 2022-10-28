@@ -6,25 +6,35 @@
     <link rel="stylesheet" href="validation form.css">
 </head>
 <body style="background-color: black; color: white;">
-    <form name="myform" onsubmit="validate()">
+    <form>
         <label>*Name:</label>
-        <input type="text" placeholder="Enter your full name">
+        <input type="text" placeholder="Enter your full name" id="name">
+        <label id="br1"></label> 
+        <label id="name error"></label>
         <br><br>
 
         <label>*Contact:</label>
-        <input type="text" placeholder="Enter your mobile no.">
+        <input type="text" placeholder="Enter your mobile no." id="contact">
+        <label id="br2"></label> 
+        <label id="contact error"></label>
         <br><br>
         
         <label>*Email:</label>
-        <input type="text" placeholder="Enter your mail id">
+        <input type="text" placeholder="Enter your mail id" id ="email">
+        <label id="br3"></label> 
+        <label id="email error"></label>
         <br><br>
         
         <label>*Password:</label>
-        <input type="password" placeholder="Enter Your Password">
+        <input type="password" placeholder="Enter Your Password" id="password">
+        <label id="br4"></label> 
+        <label id="password error"></label>
         <br><br>
         
         <label>*Date of Birth:</label>
-        <input type="date">
+        <input type="date" id="dob">
+        <label id="br5"></label> 
+        <label id="dob error"></label>
         <br><br>
 
         <label>*Gender:</label>
@@ -107,7 +117,7 @@
        </select>
        <br><br>
 
-       <button type="submit">Submit</button>
+       <input type="button" value="submit" onclick="validate()">
     </form>
 </body>
 </html>
