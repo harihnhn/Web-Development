@@ -1,0 +1,33 @@
+img{
+    /* 
+    width: 300;
+    height: 200;
+    */
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.navlink{
+    float: right;
+    width: 200px;
+    font-size: 40px;
+    margin-right: 40px;
+    margin-top: 200px;
+    text-decoration: none;
+    color: black;
+    /*background-color: aqua;*/
+    border-radius: 30px;
+    padding-left: 80px;
+    /*border: red 2px solid;*/
+}
+
+.navlink:hover{
+    background-color: blue;
+    color: white;
+}
+
+.navlink:active{
+    background-color: blue;
+    color: white;
+}
+

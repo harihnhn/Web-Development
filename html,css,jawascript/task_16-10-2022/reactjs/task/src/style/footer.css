@@ -1,0 +1,36 @@
+table{
+    width: 50%;
+    float: right;
+    font-size: 20px;
+    margin-right: 10%;
+    margin-top: 0.9%;
+}
+
+table img{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+table th{
+    text-align: left;
+}
+
+/*this property change whole */
+div{
+    background-color: rgb(187, 184, 238);
+}
+
+.footerimage{
+    margin-bottom: 1.5%;
+}
+
+
+.footer{
+    background-color: rgb(89, 87, 87);
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
