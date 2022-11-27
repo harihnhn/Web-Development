@@ -1,0 +1,47 @@
+body{
+    background-color: #f6f6f6;
+}
+
+.heading{
+    text-align: center;    
+}
+
+h1.heading {
+    margin:0%;
+    font-size: 58.5px;
+    padding-bottom: 0px;
+    text-decoration: underline;
+}
+
+p.heading{
+    margin:0%;
+    padding-top: 0px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+div{
+    width: 33%;
+    float: left;    
+}
+
+div>p{
+    font-size: 20px;
+    line-height: 30px;    
+}
+
+span{
+    font-size: 50px;
+}
+
+img{
+    display: block;
+    margin: 0px auto 0px auto;
+}
+
+i{   
+    display: block;     
+    margin-left: auto;
+    margin-right: auto;
+    
+}
