@@ -1,0 +1,40 @@
+/*
+box-sizing: border-box 
+    (-- normally width property specifies "width = content_width", 
+    when i give box-sizing property "width = (content_width + padding_width + border_width)" --)
+
+max-width: 500px; 
+min-width: 500px;
+max-height: 400px;
+min-height: 400px;
+outline: 2px solid green; 
+    (-- outline drawn outside of the border--)
+outline-offset: 1px;
+    (-- add space btw. outline and border of an element --)
+*/
+
+.portion_1{
+    color: blue;
+    border: 2px solid gold;
+    outline: 5px solid green;
+    outline-offset: 5px;
+    float: left; 
+    padding: 1%;
+    /* box-sizing: border-box; */
+    width: 40%;
+    margin: 10px;
+}
+
+p{
+    margin: 0;
+}
+
+.portion_2{
+    color: rgb(18, 206, 49);
+    width: 40%;
+    border: 10px solid gold;
+    float: left;
+    padding: 1%;
+    box-sizing: border-box;
+    margin: 10px;
+}

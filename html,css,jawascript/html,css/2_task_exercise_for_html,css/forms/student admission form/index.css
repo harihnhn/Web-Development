@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+form{
+    color: blue;
+    width: 80%;
+    margin: auto;
+    border: 1px blue solid;
+    font-size: 1.5em;
+}
+
+.question{
+    width: 50%;
+    float: left;
+}
+
+.ans{
+    width: 50%;
+    float: right;
+}
+/* .ans1{
+    margin-left: 770px;
+    width: 50%;
+} */
